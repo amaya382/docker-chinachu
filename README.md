@@ -13,8 +13,9 @@ dockerコンテナ上でchinachuの実行環境を提供する
 ## How to build
 
 ``` shell
+cd docker-chinachu
 # cp -R /path/to/existing/conf/and/data chinachu #[OPT] chinachuディレクトリ下に既存の設定ファイルやdataをコピー
-docker build -t amaya/chinachu:{version}
+docker build -t amaya/chinachu:{version} .
 ```
 
 既存の設定やdataを`docker-chinachu/chinachu`ディレクトリに入れておくことで, ビルド時にコンテナ内に反映される

@@ -30,13 +30,13 @@ $ docker run -d --name chinachu \
 -p 10772:10772 \
 -v /dev/:/dev/ \
 -v /var/run/pcscd/pcscd.comm:/var/run/pcscd/pcscd.comm \
--v /path/to/save/on/host/:/home/chinachu/chinachu/recorded \
+-v /path/to/save/on/host/:/home/chinachu/chinachu/recorded/ \
 amaya382/chinachu:lastest
 ```
 
 * PT3でない場合は, `prepare.sh`内でPT3のドライバ部分を適宜置き換える
 * パスやポートは, `chinachu/config.json`や環境に合わせて適宜変更
-* ビルド時に既存の設定やdataを入れていない場合, 初回起動時は, コンテナに接続して設定(主に`wuiUsers`や`tuners`等)を調整し, コミットしておく
+* ビルド時に既存の設定やdataを入れていない場合, 初回起動時は, コンテナに接続して設定(主に`wuiUsers`や`tuners`等)を調整し, コミットしておく. または`-v`でホスト側に置いた設定ファイルを使う
 
 
 ## References

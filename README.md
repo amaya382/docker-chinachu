@@ -31,7 +31,7 @@ $ docker run -d --name chinachu \
 -v /dev/:/dev/ \
 -v /var/run/pcscd/pcscd.comm:/var/run/pcscd/pcscd.comm \
 -v /path/to/save/on/host/:/home/chinachu/chinachu/recorded/ \
-amaya382/chinachu:lastest
+amaya382/chinachu
 ```
 
 * PT3でない場合は, `prepare.sh`内でPT3のドライバ部分を適宜置き換える

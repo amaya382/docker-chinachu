@@ -1,3 +1,7 @@
+# THIS PROJECT IS DEPRECATED
+# HIGHLY RECOMMENDED TO USE OFFICIAL IMAGE INSTEAD
+# https://github.com/Chinachu/docker-mirakurun-chinachu
+
 ## About this
 
 dockerコンテナ上でchinachuの実行環境を提供する

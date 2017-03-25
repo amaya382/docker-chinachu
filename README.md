@@ -1,6 +1,8 @@
 # THIS PROJECT IS DEPRECATED
-# HIGHLY RECOMMENDED TO USE OFFICIAL IMAGE INSTEAD
+# HIGHLY RECOMMENDED TO USE OFFICIAL IMAGE
 # https://github.com/Chinachu/docker-mirakurun-chinachu
+# OR OUR NEW PROJECT
+# https://github.com/amaya382/docker-mirakurun-chinachu-encoder INSTEAD
 
 ## About this
 
